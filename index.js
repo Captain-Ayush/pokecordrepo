@@ -50,7 +50,7 @@ client.loadCommands();
 client.on('ready', () => {
   console.log(`READY Bot has started, with ${client.users.size} users, in ${client.channels.size} channels of ${client.guilds.size} guilds.`);
   client.log(`Bot has started, with ${client.users.size} users, in ${client.channels.size} channels of ${client.guilds.size} guilds.`, "Ready", "event");
-  client.user.setActivity(`pokécord Helper`);
+  client.user.setActivity('pokécord Helper', {type: "Streaming"});
 });
 
 client.on('error', error => {
@@ -102,7 +102,7 @@ client.on('message', message => {
                   }
                 
                   embed
-                    .setTitle("Possible Pokemon: " + result)
+                    .setTitle("Possible Pokemon name: " + result)
                     .setFooter("Want this bot in your server? Do @" + client.user.tag + " info.");
                   message.channel.send(embed);
                 
