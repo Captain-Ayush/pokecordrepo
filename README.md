@@ -1,6 +1,3 @@
-# PokeAssistant
-
-https://github.com/CHamburr/PokeAssistant
+PokéCord Helper by AkaAyush 
 
 
-### Made by [CHamburr#2591](https://github.com/CHamburr/PokeAssistant)
