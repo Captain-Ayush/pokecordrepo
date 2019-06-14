@@ -48,7 +48,7 @@ client.loadCommands();
 client.on('ready', () => {
   console.log(`READY Bot has started, with ${client.users.size} users, in ${client.channels.size} channels of ${client.guilds.size} guilds.`);
   client.log(`Bot has started, with ${client.users.size} users, in ${client.channels.size} channels of ${client.guilds.size} guilds.`, "Ready", "event");
-  client.user.setActivity('PokeĆord Helper playing with  ${client.users.size} users | ${client.guilds.size} guilds | ${client.guilds.size} guilds', {type: "watchin"});
+  client.user.setActivity(`Pokécord Helper playing with  ${client.users.size} users | ${client.guilds.size} guilds | ${client.guilds.size} guilds`, {type: "watchin"});
 });
 
 client.on('error', error => {
