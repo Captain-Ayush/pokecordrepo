@@ -95,7 +95,7 @@ client.on('message', message => {
                   if (result === undefined) {
                     embed
                       .setTitle("Pokemon Not Found")
-                      .setDescription("Please contact the owner CHamburr#2591 to add this Pokemon to the database.");
+                      .setDescription("Please contact the owner 고스트 라이더 ᗩᴋᴀ ᗩʏᴜsʜ#1999 to add this Pokemon to the database.");
                     return message.channel.send(embed);
                   }
                 
