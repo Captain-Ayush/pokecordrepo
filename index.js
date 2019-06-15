@@ -48,7 +48,7 @@ client.loadCommands();
 client.on('ready', () => {
   console.log(`READY Bot has started, with ${client.users.size} users, in ${client.channels.size} channels of ${client.guilds.size} guilds.`);
   client.log(`Bot has started, with ${client.users.size} users, in ${client.channels.size} channels of ${client.guilds.size} guilds.`, "Ready", "event");
-  client.user.setActivity('Pokécord Helper playing with  ${client.users.size} users', {type: "watchin"});
+  client.user.setActivity(`discord.gg/TYe3U4w`);
 });
 
 client.on('error', error => {
@@ -95,7 +95,7 @@ client.on('message', message => {
                   if (result === undefined) {
                     embed
                       .setTitle("Pokemon Not Found")
-                      .setDescription("Please contact the owner 고스트 라이더 ᗩᴋᴀ ᗩʏᴜsʜ#1999 to add this Pokemon to the database.");
+                      .setDescription("Please contact the owner CHamburr#2591 to add this Pokemon to the database.");
                     return message.channel.send(embed);
                   }
                 
